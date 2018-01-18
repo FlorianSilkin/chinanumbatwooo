@@ -1,0 +1,19 @@
+body {
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	padding: 7vh 0 9vh 0;
+}
+
+.container {
+	max-width: 980px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.cards-area {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	transition: all .3s;
+}

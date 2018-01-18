@@ -1,0 +1,12 @@
+@mixin font-roboto($type, $fw, $fs) {
+	@font-face {
+		font-family: Roboto;
+		src: url("../fonts/Roboto-#{$type}.ttf");
+		font-weight: $fw;
+		font-style: $fs;
+	}
+}
+
+@mixin image($name) {
+	background-image: -Webkit-image-set(url('../img/#{$name}.jpg') 1x, url('../img/#{$name}@2x.jpg') 2x);
+}
